@@ -1,12 +1,12 @@
 This is a rootkit which was tested on ubuntu-16.04.6-desktop-amd64 (Linux 4.4),but it should be easy to port to different kernel versions.
 
 
-Install
+Installation
 --
 
 Clone the repository
 ```
-git clone
+git clone https://github.com/Asekon/Linux-Rootkit
 ```
 
 Enter the folder
@@ -21,7 +21,7 @@ sudo make
 
 Insert the module as root
 ```
-insmod RootKit.ko
+sudo insmod RootKit.ko
 ```
 
 Uninstall
@@ -34,23 +34,22 @@ rmmod RootKit
 
 References
 --
-Wikipedia Rootkit
-https://en.wikipedia.org/wiki/Rootkit
+https://en.wikipedia.org/wiki/Rootkit 
 
-Linux Device Drivers
-http://lwn.net/Kernel/LDD3/
+http://dandylife.net/blog/archives/304 
 
-LKM HACKING
-https://www.thc.org/papers/LKM_HACKING.html
+https://github.com/nurupo/rootkit 
 
-Memset's blog
-http://memset.wordpress.com/
+https://github.com/f0rb1dd3n/Reptile 
 
-Linux on-the-fly kernel patching without LKM
-http://phrack.org/issues/58/7.html
+https://github.com/m0nad/Diamorphine 
 
-WRITING A SIMPLE ROOTKIT FOR LINUX
-http://big-daddy.fr/repository/Documentation/Hacking/Security/Malware/Rootkits/writing-rootkit.txt
+http://lwn.net/Kernel/LDD3/ 
 
-Linux Cross Reference
-http://lxr.free-electrons.com/
+http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/ 
+
+http://turbochaos.blogspot.com/2013/09/linux-rootkits-101-1-of-3.html 
+
+https://yassine.tioual.com/index.php/2017/01/10/hiding-processes-for-fun-and-profit/ 
+
+https://www.howtogeek.com/107217/how-to-manage-processes-from-the-linux-terminal-10-commands-you-need-to-know/ 
