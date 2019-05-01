@@ -27,9 +27,9 @@ sudo insmod RootKit.ko
 Uninstall
 --
 
-remove the module from the kernel as root
+remove the module from the kernel as root (make sure it is visible in the module list first)
 ```
-rmmod RootKit
+sudo rmmod RootKit
 ```
 
 References
