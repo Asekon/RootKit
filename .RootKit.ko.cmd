@@ -1,1 +1,0 @@
-cmd_/home/omar/Desktop/RootKit/RootKit.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/omar/Desktop/RootKit/RootKit.ko /home/omar/Desktop/RootKit/RootKit.o /home/omar/Desktop/RootKit/RootKit.mod.o ;  true
