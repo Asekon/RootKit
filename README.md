@@ -1,6 +1,6 @@
 This is a rootkit which was tested on ubuntu-16.04.6-desktop-amd64 (Linux 4.4),but it should be easy to port to different kernel versions.
 
-Link to video + report--> https://drive.google.com/file/d/1yDktAg9vIPBH3OPEBYset9OdQb0LMevA/view?usp=sharing
+Link to video --> https://drive.google.com/file/d/1yDktAg9vIPBH3OPEBYset9OdQb0LMevA/view?usp=sharing
 
 Installation
 --
