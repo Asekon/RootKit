@@ -6,7 +6,7 @@ Installation
 
 Clone the repository
 ```
-git clone https://github.com/Asekon/Rootkit
+git clone https://github.com/Asekon/RootKit
 ```
 
 Enter the folder
