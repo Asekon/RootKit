@@ -19,7 +19,7 @@ Compile
 sudo make
 ```
 
-Insert the module as root
+Insert the module into the kernel as root
 ```
 sudo insmod RootKit.ko
 ```
@@ -27,7 +27,7 @@ sudo insmod RootKit.ko
 Uninstall
 --
 
-remove the module as root
+remove the module from the kernel as root
 ```
 rmmod RootKit
 ```
