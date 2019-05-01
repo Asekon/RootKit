@@ -11,7 +11,7 @@ git clone https://github.com/Asekon/Rootkit
 
 Enter the folder
 ```
-cd Rootkit
+cd RootKit
 ```
 
 Compile
